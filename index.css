@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+}
+#heading{
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    text-align: start;
+    font-size: 50px;
+}
+
+#openQuestionform{
+    background-color: lightseagreen;
+    margin: 10px;
+    padding: 10px;
+    border: lightseagreen;
+    color: white;
+}
+#searchQuestionInput{
+    margin: 10px;
+    padding: 10px;
+}
+#QuestionRow{
+    height: 535px;
+    background-color: lightgrey;
+    overflow: scroll;
+}
+
+#QuestionsList{
+    list-style-type: none;
+    
+}
+#QuestionsList li{
+    border-bottom: 1px grey solid;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#QuestionsList li p{
+    padding: 10px;
+    font-size: 15px;
+}
+#QuestionsList li h1{
+    font-size: 30px;
+}
+#newQuestionSectionDiv{
+    margin-top: 100px;
+    margin-left: 80px;
+    display: block;
+}
+#QuestionSubject{
+    margin: 10px;
+    padding: 10px;
+}
+#QuestionBody{
+    margin: 10px;
+    padding: 10px;
+}
+
+#AddQuestionButton{
+    float: right;
+    margin-right: 80px;
+    background-color: lightseagreen;
+    padding: 10px 20px 10px 20px;
+    border: lightseagreen;
+    color: white;
+}
+#SelectedQuestionDiv{
+    margin-top: 100px;
+    margin-left: 80px;
+    display: none;
+}
+#QuestionDiv div{
+    background-color: lightgray;
+    padding: 10px;
+}
+#resolveButton{
+    float: right;
+    margin-top: 10px;
+    padding: 5px 15px 5px 15px;
+    background-color: lightseagreen;
+    color: white;
+    border: lightseagreen;
+}
+#ResponseList{
+    list-style-type: none;
+    background-color: lightgray;
+    overflow: scroll;
+    height: 125px;
+}
+#ResponseList li{
+    border-bottom: 1px gray solid;
+    padding: 10px;
+}
+#addResponseDiv input{
+    margin: 5px;
+}
+#addResponseDiv textarea{
+    margin: 5px;
+}
+#SubmitResponseButton{
+    background-color: lightseagreen;
+    border: lightseagreen;
+    color: white;
+    padding: 3px 6px 3px 6px;
+    float: right;
+}
